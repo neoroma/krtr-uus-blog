@@ -16,19 +16,13 @@
     "baseUrl": ".",
     "paths": {
       "@pages/*": ["pages/*"],
-      "@pageTemplates/*": ["pageTemplates/*"],
-      "@pageFiles/*": ["pageFiles/*"],
       "@components/*": ["components/*"],
       "@styles/*": ["styles/*"],
-      "@themeSettings": ["themeSettings/index.ts"],
-      "@const/*": ["const/*"],
-      "@gql/*": ["gql/*"],
-      "@interfaces/*": ["interfaces/*"],
       "@utils/*": ["utils/*"],
       "@test/*": ["test/*"]
     }
   },
-  "files": ["@types/graphql.d.ts"],
-  "exclude": ["node_modules", ".next", "out", "i18n/makeTranslationFiles.js"],
+  "files": [],
+  "exclude": ["node_modules", ".next", "out"],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.js", "**/*.graphql"]
 }
