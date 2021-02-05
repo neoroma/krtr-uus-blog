@@ -4,17 +4,13 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Uus Korter Blog</title>
+        <link rel="icon" href="/icons/favicon.ico" />
       </Head>
 
-      <main >
+      <main>Dzz</main>
 
-      </main>
-
-      <footer>
-
-      </footer>
+      <footer></footer>
     </div>
   )
 }

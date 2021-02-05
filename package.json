@@ -13,10 +13,12 @@
   "scripts": {
     "dev": "next dev -p 3020",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "make-icons": "rimraf public/icons/* && icon-gen -i ./source-images/uus.svg  -o ./public/icons -r"
   },
   "dependencies": {
     "@mdx-js/react": "^1.6.22",
+    "favicons": "^6.2.0",
     "next": "10.0.6",
     "next-themes": "^0.0.10",
     "ramda": "^0.27.1",
@@ -24,8 +26,13 @@
     "react-dom": "17.0.1"
   },
   "devDependencies": {
+    "@tsconfig/node14": "^1.0.0",
     "@types/ramda": "^0.27.36",
     "@types/react": "^17.0.1",
+    "icon-gen": "^2.1.0",
+    "prettier": "^2.2.1",
+    "rimraf": "^3.0.2",
+    "ts-node": "^9.1.1",
     "typescript": "^4.1.3"
   }
 }
