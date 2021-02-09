@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import toast, { Toaster } from 'react-hot-toast'
+import { Box, Button } from '@chakra-ui/react'
 
 export default function Home() {
   const notify = () => toast.success('Successfully created!')
@@ -11,10 +12,15 @@ export default function Home() {
         <link rel="icon" href="/icons/favicon.ico" />
       </Head>
 
-      <main>Dzz</main>
+      <main>
+        <Box w="100%" h="400px" bgGradient="linear(red.100 0%, orange.100 25%, yellow.100 50%)" />
+      </main>
 
       <div>
-        <button onClick={notify}>Make me a toast</button>
+        <Button onClick={notify} colorScheme="blue" size="md">
+          Make me a toast
+        </Button>
+
         <Toaster
           toastOptions={{
             success: {

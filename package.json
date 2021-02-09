@@ -17,7 +17,11 @@
     "make-icons": "rimraf public/icons/* && icon-gen -i ./source-images/uus.svg  -o ./public/icons -r"
   },
   "dependencies": {
+    "@chakra-ui/react": "^1.3.2",
+    "@emotion/react": "^11.1.5",
+    "@emotion/styled": "^11.1.5",
     "@mdx-js/react": "^1.6.22",
+    "framer-motion": "^3.3.0",
     "next": "10.0.6",
     "next-themes": "^0.0.10",
     "ramda": "^0.27.1",
